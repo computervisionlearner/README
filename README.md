@@ -1,6 +1,6 @@
 README
 ===========================
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+# 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 
 ****
 	
@@ -53,7 +53,7 @@ ___
 
 标题
 ------
-
+# 一级标题（模仿）
 # 一级标题  
 ## 二级标题  
 ### 三级标题  
@@ -91,7 +91,7 @@ ___
 ```
 `linux` `网络编程` `socket` `epoll` 
 ```
-效果：`linux` `网络编程` `socket` `epoll`
+效果：`linux` `网络编程` `socket` `epoll` 
 
 也适合做一篇文章的tag
 #### 换行
@@ -106,7 +106,7 @@ ___
 
 |语法|效果|
 |----|-----|
-|`*斜体1*`|*斜体1*|
+|`*斜体1*`|*斜体1*|    *斜体*
 |`_斜体2_`| _斜体2_|
 |`**粗体1**`|**粗体1**|
 |`__粗体2__`|__粗体2__|
