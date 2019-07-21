@@ -158,9 +158,7 @@ Markdown支持两种链接：内嵌链接和参考链接。在这两种样式中
 
 ### 图片
 
-插入图片的方法与超链接一致，但需要在中括号前额外添加`！`字符，例如：
-
-`![](./img/csdn.png)`
+插入图片的方法与超链接一致，但需要在中括号前额外添加`！`字符，例如：`![](./img/csdn.png)`: ![](./img/csdn.png "CSDN logo")
 
 当然，如果想调整图片大小，则可以通过代码`<img src="./img/csdn.png" style="zoom:30%">` 设置成这样：<img src="./img/csdn.png" style="zoom:30%">
 
