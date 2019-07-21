@@ -160,9 +160,9 @@ Markdown支持两种链接：内嵌链接和参考链接。在这两种样式中
 
 插入图片的方法与超链接一致，但需要在中括号前额外添加`！`字符，例如：
 
-![](C:\Users\36176\Desktop\pic1.gif)
+`![](./img/csdn.png)`
 
-当然，如果想调整图片大小，则可以通过代码`![](C:\Users\36176\Desktop\pic1.gif)` 设置成这样：<img src="pic1.gif" style="zoom:30%">
+当然，如果想调整图片大小，则可以通过代码`<img src="./img/csdn.png" style="zoom:30%">` 设置成这样：<img src="./img/csdn.png" style="zoom:30%">
 
 给图片插入题注：
 ```HTML
@@ -174,8 +174,8 @@ src="pic1.gif">
 </center>
 ```
 <center>
-<img style="zoom:150%" 
-src="pic2.gif">
+<img style="zoom:50%" 
+src="./img/csdn.png">
 <br>
 压缩后的效果图
 </center>
